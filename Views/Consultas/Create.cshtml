@@ -1,9 +1,33 @@
 @model SistemaConsultasUVV.Models.Consulta
-@{ ViewData["Title"] = "Agendar Consulta"; }
+
+@{
+    ViewData["Title"] = "Agendar Consulta";
+}
+
 <h2>Agendar Consulta</h2>
+
 <form asp-action="Create" method="post">
-    <div class="mb-3"><label asp-for="Especialidade"></label><input asp-for="Especialidade" class="form-control" /></div>
-    <div class="mb-3"><label asp-for="DataHora"></label><input asp-for="DataHora" type="datetime-local" class="form-control" /></div>
-    <div class="mb-3"><label asp-for="Descricao"></label><textarea asp-for="Descricao" class="form-control"></textarea></div>
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+    <div class="mb-3">
+        <label asp-for="Especialidade" class="form-label">Especialidade</label>
+        <input asp-for="Especialidade" class="form-control" required />
+        <span asp-validation-for="Especialidade" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DataHora" class="form-label">Data e Hora</label>
+        <input asp-for="DataHora" type="datetime-local" class="form-control" required />
+        <span asp-validation-for="DataHora" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Descricao" class="form-label">Descrição</label>
+        <textarea asp-for="Descricao" class="form-control"></textarea>
+        <span asp-validation-for="Descricao" class="text-danger"></span>
+    </div>
+
     <button type="submit" class="btn btn-success">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
 </form>
+

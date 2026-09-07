@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaConsultasUvv")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51275f26cef4c7ff19a94f7c87376259070f2d8a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0533af91fe59b090765a4fb8f47b8ea24c411006")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaConsultasUvv")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaConsultasUvv")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
