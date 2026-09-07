@@ -1,0 +1,10 @@
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/GestaoConsultasUVV.csproj.AssemblyReference.cache
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/rpswa.dswa.cache.json
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/GestaoConsultasUVV.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/GestaoConsultasUVV.AssemblyInfoInputs.cache
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/GestaoConsultasUVV.AssemblyInfo.cs
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/GestaoConsultasUVV.csproj.CoreCompileInputs.cache
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/GestaoConsultasUVV.MvcApplicationPartsAssemblyInfo.cache
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/GestaoConsultasUVV.RazorAssemblyInfo.cache
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/GestaoConsultasUVV.RazorAssemblyInfo.cs
+/workspaces/SistemaConsultasUvv/GestaoConsultasUVV/obj/Debug/net10.0/GestaoConsultasUVV.sourcelink.json
