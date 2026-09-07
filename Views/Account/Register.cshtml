@@ -1,0 +1,23 @@
+@model SistemaConsultasUVV.Models.Usuario
+@{
+    ViewData["Title"] = "Criar Conta";
+}
+
+<h2>Criar Conta</h2>
+
+<form asp-controller="Account" asp-action="Register" method="post">
+    <div class="mb-3">
+        <label asp-for="Nome" class="form-label">Nome</label>
+        <input asp-for="Nome" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">E-mail</label>
+        <input asp-for="Email" type="email" class="form-control" required />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Senha" class="form-label">Senha</label>
+        <input asp-for="Senha" type="password" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+    <a asp-controller="Account" asp-action="Login" class="btn btn-link">Já tenho uma conta</a>
+</form>

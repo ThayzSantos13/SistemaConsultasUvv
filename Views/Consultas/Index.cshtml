@@ -1,0 +1,33 @@
+@model IEnumerable<SistemaConsultasUVV.Models.Consulta>
+@{ ViewData["Title"] = "Minhas Consultas"; }
+
+<h2>Minhas Consultas</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Agendar Consulta</a>
+    <a asp-controller="Account" asp-action="Logout" class="btn btn-danger float-end">Sair</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Especialidade</th>
+            <th>Data/Hora</th>
+            <th>Descrição</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>@item.Especialidade</td>
+            <td>@item.DataHora</td>
+            <td>@item.Descricao</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Excluir</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
